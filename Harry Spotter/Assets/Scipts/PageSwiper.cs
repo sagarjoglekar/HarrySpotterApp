@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 public class PageSwiper : MonoBehaviour, IDragHandler,IEndDragHandler
 {
+    //Responsible for page swipe animation (Attach to Panel Holder GameObject)
     private Vector3 _panelLocation;
     [SerializeField] private float _percentThreshold = 0.2f;
     [SerializeField] private float _easing = 0.5f;

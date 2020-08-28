@@ -7,6 +7,9 @@ using static LoginNetwork;
 
 public class UIManagerLoginIn : MonoBehaviour
 {
+    /*
+    Responsible for all the login UI functionalities (Attach to Canvas GameObject)
+    */
     [SerializeField] private bool _debug = false;
     [SerializeField] private float _fadeTime = 1f;
     [SerializeField] private CanvasGroup _welcomPanle;
@@ -51,6 +54,7 @@ public class UIManagerLoginIn : MonoBehaviour
     {
         //for smooth animation
         Application.targetFrameRate = 60;
+        //setting up the application
         if (_debug == false)
         {
              _localUser.LoadData();
@@ -112,6 +116,7 @@ public class UIManagerLoginIn : MonoBehaviour
         }
     }
 
+    //fade effect when swiping through pages
     private IEnumerator FadeCanvasGroup(bool fadeAway, CanvasGroup canvasGroup)
     {
         if (fadeAway)
@@ -137,6 +142,7 @@ public class UIManagerLoginIn : MonoBehaviour
 
 
     #region SignUp Dynamic Animation
+    //Sign UP responsive animation
     public void OnSignUpEmailPointerDown()
     {
         _signUpEmailInputText.transform.GetChild(1).GetComponent<Text>().text = "";
@@ -179,7 +185,7 @@ public class UIManagerLoginIn : MonoBehaviour
     }
     #endregion
 
-
+    //Gets called on -> Panel Holder->Sign Up (gameobject)
     public void OnSignUpButtonClick()
     {
         _panelHolder.SetActive(false);
@@ -187,6 +193,7 @@ public class UIManagerLoginIn : MonoBehaviour
         _pageSelectorUI.SetActive(false);
         StartCoroutine(FadeCanvasGroup(false, _signUpPanel.GetComponent<CanvasGroup>()));
     }
+    //Attach to Panel Holder -> Log In
     public void OnLogInButtonClick()
     {
         _panelHolder.SetActive(false);
@@ -195,7 +202,9 @@ public class UIManagerLoginIn : MonoBehaviour
         StartCoroutine(FadeCanvasGroup(false, _logInPanel.GetComponent<CanvasGroup>()));
     }
 
-    
+    //Gets called on 
+    // Sing Up Panel -> Back Button (gameobject)
+    // Login Panel -> Back Button (gameobject)
     public void OnBackButtonClick()
     {
         if(_signUpPanel.activeSelf == true)
@@ -213,7 +222,7 @@ public class UIManagerLoginIn : MonoBehaviour
         }
     }
     
-
+    //Gets called on Sign Up Panel -> Submmit Button/Sign Up
     public void OnSignUpSubmmitButton()
     {
         if (_signUpEmailInputText.text == "" || _signUpPassInputText.text == "")
@@ -246,6 +255,7 @@ public class UIManagerLoginIn : MonoBehaviour
     }
 
     #region Login Dynamic Animation
+    //Log In responsive animation
     public void OnLoginEmailPointerDown()
     {
         Debug.Log("OnLoginEmailSelected()");
@@ -291,6 +301,8 @@ public class UIManagerLoginIn : MonoBehaviour
     }
     #endregion
 
+    //Gets called on
+    // Canvas -> LogIn Panel -> Submmit Button
     public void OnLogInSubmmitButton()
     {
        // UserAccount newUser = new UserAccount(_loginEmailInputText.text, _loginPassInputText.text);
@@ -325,6 +337,8 @@ public class UIManagerLoginIn : MonoBehaviour
         }
     }
 
+
+    #region CallBackMethodsToGetUserIDandAccrountInfo
     public void LoginGetUserID(string userID)
     {
         print(userID);
@@ -387,6 +401,7 @@ public class UIManagerLoginIn : MonoBehaviour
             SceneManager.LoadScene("Map");
         }
     }
+    #endregion
 
     public void GoToSurveyButtonClick()
     {

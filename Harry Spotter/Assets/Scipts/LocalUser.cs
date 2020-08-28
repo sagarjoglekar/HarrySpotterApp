@@ -52,19 +52,19 @@ public class LocalUser : MonoBehaviour
         }
     }
 
-
+    //For Testing 
     public void onLoadButton()
     {
         LoadData();
         _testText.text = "UserID: " + userID + " HouseName: " + userHouse + "Score: " + score;
     }
-
+    //For Testing 
     public void onSaveButton()
     {
         userID = inputField.text;
         SaveData();
     }
-
+    //For Testing 
     public void onLoadDataButtonClick()
     {
         LoadData();
