@@ -2929,7 +2929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f50c94f9d21c346fd96421d642eba27b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerMaxHealth: 250
+  _playerMaxHealth: 1000
   _playerMinHealth: 0
   isPlayerDead: 0
   _playerHealthBar: {fileID: 16096027}
@@ -4068,7 +4068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8ad06ebc4705435eb3044101ae3d533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemyMaxHealth: 250
+  _enemyMaxHealth: 1000
   _enmeyMinHealth: 0
   _enemyAttackRate: 1
   _enemyAttackDamage: 1

@@ -342,6 +342,7 @@ public class UIManagerMap : MonoBehaviour
         _rawImage.SetActive(true);
         _blackBackground.SetActive(true);
         _nextButton.SetActive(true);
+        //_inputFieldRef.inputType = InputField.InputType.AutoCorrect;//keyboard auto correct
         _inputFieldRef.transform.GetChild(1).GetComponent<Text>().text = "Give a label for this object";
         _inputFieldRef.text = "";
         _inputFieldRef.placeholder.color = Color.gray;

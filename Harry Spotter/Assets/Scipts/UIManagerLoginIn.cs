@@ -57,8 +57,8 @@ public class UIManagerLoginIn : MonoBehaviour
         //setting up the application
         if (_debug == false)
         {
-             _localUser.LoadData();
-            if(_localUser.userID == null || _localUser.userID == "")
+            _localUser.LoadData();
+            if (_localUser.userID == null || _localUser.userID == "")
             {
                 _panelHolder.SetActive(true);
                 _pageSwiper = _panelHolder.GetComponent<PageSwiper>();

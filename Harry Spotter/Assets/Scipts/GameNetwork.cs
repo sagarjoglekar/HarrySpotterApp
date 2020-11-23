@@ -75,12 +75,17 @@ public class GameNetwork : MonoBehaviour
             callback(emptyObject);
         } else
         {
+            
             //for cases that backend can not find the object
             var data = request.downloadHandler.text;
             ImageInfo imageInfo = ImageInfo.CreateFromJSON(data);
             //Debug.Log("House: " + houseInfo.house);
             callback(imageInfo.objectId);
         }
+        //Testing no oject senario
+        //emptyObject.Clear();
+        //emptyObject.Add("NoObjectId");
+        //callback(emptyObject);
     }
     #endregion
 
@@ -132,7 +137,7 @@ public class GameNetwork : MonoBehaviour
 
         //yield return request.Send();
         yield return request.SendWebRequest();
-        Debug.Log("Status Code: " + request.responseCode);
+        Debug.Log("Post Annotate Object Status Code: " + request.responseCode);
         //getting the body from call
         Debug.Log(request.downloadHandler.text);
         var data = request.downloadHandler.text;

@@ -42,6 +42,7 @@ ScriptsOnlyBuild:
     - Mapbox.Unity.MeshGeneration.Modifiers.ReplaceFeatureCollectionModifier
     - Mapbox.Unity.Utilities.DebugTools.SceneData
     - Mapbox.Unity.Utilities.DebugTools.ScenesList
+    - Mapbox.Unity.Utilities.Runnable
     - MaslowQuestion
     - PageSwiper
     - Player
@@ -134,53 +135,53 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11542}
+      Script: {instanceID: 11552}
     - Class: 114
-      Script: {instanceID: 11546}
+      Script: {instanceID: 11556}
     - Class: 114
-      Script: {instanceID: 11548}
+      Script: {instanceID: 11558}
     - Class: 114
-      Script: {instanceID: 11550}
+      Script: {instanceID: 11560}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11566}
     - Class: 114
-      Script: {instanceID: 11592}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 12266}
-    - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 12278}
     - Class: 114
       Script: {instanceID: 12330}
     - Class: 114
-      Script: {instanceID: 12368}
+      Script: {instanceID: 12344}
     - Class: 114
-      Script: {instanceID: 12386}
+      Script: {instanceID: 12382}
     - Class: 114
-      Script: {instanceID: 12520}
+      Script: {instanceID: 12408}
     - Class: 114
-      Script: {instanceID: 12594}
+      Script: {instanceID: 12542}
     - Class: 114
-      Script: {instanceID: 12742}
+      Script: {instanceID: 12616}
     - Class: 114
-      Script: {instanceID: 13792}
+      Script: {instanceID: 12766}
     - Class: 114
-      Script: {instanceID: 13882}
+      Script: {instanceID: 13838}
     - Class: 114
-      Script: {instanceID: 14030}
+      Script: {instanceID: 13928}
     - Class: 114
-      Script: {instanceID: 14046}
+      Script: {instanceID: 14076}
     - Class: 114
-      Script: {instanceID: 14084}
+      Script: {instanceID: 14092}
     - Class: 114
-      Script: {instanceID: 14420}
+      Script: {instanceID: 14130}
     - Class: 114
-      Script: {instanceID: 14530}
+      Script: {instanceID: 14470}
     - Class: 114
-      Script: {instanceID: 14644}
+      Script: {instanceID: 14580}
     - Class: 114
-      Script: {instanceID: 15254}
+      Script: {instanceID: 14694}
     - Class: 114
-      Script: {instanceID: 25984}
+      Script: {instanceID: 15318}
+    - Class: 114
+      Script: {instanceID: 27270}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -245,81 +246,81 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 884}
-    - Class: 114
-      Script: {instanceID: 11544}
-    - Class: 114
-      Script: {instanceID: 11546}
-    - Class: 114
-      Script: {instanceID: 11550}
-    - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 892}
     - Class: 114
       Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 11592}
+      Script: {instanceID: 11556}
     - Class: 114
-      Script: {instanceID: 11684}
+      Script: {instanceID: 11560}
     - Class: 114
-      Script: {instanceID: 11734}
+      Script: {instanceID: 11564}
     - Class: 114
-      Script: {instanceID: 11958}
+      Script: {instanceID: 11566}
     - Class: 114
-      Script: {instanceID: 12050}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 12126}
+      Script: {instanceID: 11696}
     - Class: 114
-      Script: {instanceID: 12160}
+      Script: {instanceID: 11746}
     - Class: 114
-      Script: {instanceID: 12168}
+      Script: {instanceID: 11970}
     - Class: 114
-      Script: {instanceID: 12388}
+      Script: {instanceID: 12062}
     - Class: 114
-      Script: {instanceID: 12404}
+      Script: {instanceID: 12138}
     - Class: 114
-      Script: {instanceID: 12544}
+      Script: {instanceID: 12172}
     - Class: 114
-      Script: {instanceID: 12546}
+      Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 12558}
+      Script: {instanceID: 12410}
     - Class: 114
-      Script: {instanceID: 12732}
+      Script: {instanceID: 12426}
     - Class: 114
-      Script: {instanceID: 12742}
+      Script: {instanceID: 12566}
     - Class: 114
-      Script: {instanceID: 12820}
+      Script: {instanceID: 12568}
     - Class: 114
-      Script: {instanceID: 13198}
+      Script: {instanceID: 12580}
     - Class: 114
-      Script: {instanceID: 13416}
+      Script: {instanceID: 12756}
     - Class: 114
-      Script: {instanceID: 13454}
+      Script: {instanceID: 12766}
     - Class: 114
-      Script: {instanceID: 13786}
+      Script: {instanceID: 12844}
     - Class: 114
-      Script: {instanceID: 13882}
+      Script: {instanceID: 13242}
     - Class: 114
-      Script: {instanceID: 13902}
+      Script: {instanceID: 13462}
     - Class: 114
-      Script: {instanceID: 14192}
+      Script: {instanceID: 13500}
     - Class: 114
-      Script: {instanceID: 14222}
+      Script: {instanceID: 13832}
     - Class: 114
-      Script: {instanceID: 14530}
+      Script: {instanceID: 13928}
     - Class: 114
-      Script: {instanceID: 14538}
+      Script: {instanceID: 13948}
     - Class: 114
-      Script: {instanceID: 14606}
+      Script: {instanceID: 14240}
     - Class: 114
-      Script: {instanceID: 14630}
+      Script: {instanceID: 14270}
     - Class: 114
-      Script: {instanceID: 14754}
+      Script: {instanceID: 14580}
     - Class: 114
-      Script: {instanceID: 15094}
+      Script: {instanceID: 14588}
     - Class: 114
-      Script: {instanceID: 15254}
+      Script: {instanceID: 14656}
     - Class: 114
-      Script: {instanceID: 15474}
+      Script: {instanceID: 14680}
+    - Class: 114
+      Script: {instanceID: 14808}
+    - Class: 114
+      Script: {instanceID: 15148}
+    - Class: 114
+      Script: {instanceID: 15318}
+    - Class: 114
+      Script: {instanceID: 15548}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -384,79 +385,79 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11546}
+      Script: {instanceID: 11556}
     - Class: 114
-      Script: {instanceID: 11550}
+      Script: {instanceID: 11560}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11564}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11566}
     - Class: 114
-      Script: {instanceID: 11592}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 11842}
+      Script: {instanceID: 11854}
     - Class: 114
-      Script: {instanceID: 11864}
+      Script: {instanceID: 11876}
     - Class: 114
-      Script: {instanceID: 11884}
+      Script: {instanceID: 11896}
     - Class: 114
-      Script: {instanceID: 12050}
+      Script: {instanceID: 12062}
     - Class: 114
-      Script: {instanceID: 12106}
+      Script: {instanceID: 12118}
     - Class: 114
-      Script: {instanceID: 12266}
+      Script: {instanceID: 12278}
     - Class: 114
-      Script: {instanceID: 12742}
+      Script: {instanceID: 12766}
     - Class: 114
-      Script: {instanceID: 12748}
+      Script: {instanceID: 12772}
     - Class: 114
-      Script: {instanceID: 13198}
+      Script: {instanceID: 13242}
     - Class: 114
-      Script: {instanceID: 13352}
+      Script: {instanceID: 13398}
     - Class: 114
-      Script: {instanceID: 13662}
-    - Class: 114
-      Script: {instanceID: 13754}
+      Script: {instanceID: 13708}
     - Class: 114
       Script: {instanceID: 13800}
     - Class: 114
-      Script: {instanceID: 13882}
+      Script: {instanceID: 13846}
     - Class: 114
-      Script: {instanceID: 14036}
+      Script: {instanceID: 13928}
     - Class: 114
-      Script: {instanceID: 14040}
+      Script: {instanceID: 14082}
     - Class: 114
-      Script: {instanceID: 14042}
+      Script: {instanceID: 14086}
     - Class: 114
-      Script: {instanceID: 14272}
+      Script: {instanceID: 14088}
     - Class: 114
-      Script: {instanceID: 14346}
+      Script: {instanceID: 14320}
     - Class: 114
-      Script: {instanceID: 14446}
+      Script: {instanceID: 14394}
     - Class: 114
-      Script: {instanceID: 14484}
+      Script: {instanceID: 14496}
     - Class: 114
-      Script: {instanceID: 14530}
+      Script: {instanceID: 14534}
     - Class: 114
-      Script: {instanceID: 14728}
+      Script: {instanceID: 14580}
     - Class: 114
-      Script: {instanceID: 14910}
+      Script: {instanceID: 14782}
     - Class: 114
-      Script: {instanceID: 14924}
+      Script: {instanceID: 14964}
     - Class: 114
-      Script: {instanceID: 15060}
+      Script: {instanceID: 14978}
     - Class: 114
-      Script: {instanceID: 15066}
+      Script: {instanceID: 15114}
     - Class: 114
-      Script: {instanceID: 15094}
+      Script: {instanceID: 15120}
     - Class: 114
-      Script: {instanceID: 15254}
+      Script: {instanceID: 15148}
     - Class: 114
-      Script: {instanceID: 15278}
-    - Class: 114
-      Script: {instanceID: 15334}
+      Script: {instanceID: 15318}
     - Class: 114
       Script: {instanceID: 15342}
+    - Class: 114
+      Script: {instanceID: 15398}
+    - Class: 114
+      Script: {instanceID: 15406}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -505,35 +506,35 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11542}
+      Script: {instanceID: 11552}
     - Class: 114
-      Script: {instanceID: 11546}
+      Script: {instanceID: 11556}
     - Class: 114
-      Script: {instanceID: 11550}
+      Script: {instanceID: 11560}
     - Class: 114
-      Script: {instanceID: 11554}
+      Script: {instanceID: 11566}
     - Class: 114
-      Script: {instanceID: 11592}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 12738}
+      Script: {instanceID: 12762}
     - Class: 114
-      Script: {instanceID: 12742}
+      Script: {instanceID: 12766}
     - Class: 114
-      Script: {instanceID: 13454}
+      Script: {instanceID: 13500}
     - Class: 114
-      Script: {instanceID: 13546}
+      Script: {instanceID: 13592}
     - Class: 114
-      Script: {instanceID: 13636}
+      Script: {instanceID: 13682}
     - Class: 114
-      Script: {instanceID: 13882}
+      Script: {instanceID: 13928}
     - Class: 114
-      Script: {instanceID: 14288}
+      Script: {instanceID: 14336}
     - Class: 114
-      Script: {instanceID: 14530}
+      Script: {instanceID: 14580}
     - Class: 114
-      Script: {instanceID: 15254}
+      Script: {instanceID: 15318}
     - Class: 114
-      Script: {instanceID: 15342}
+      Script: {instanceID: 15406}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -990,6 +991,12 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
+    className: ARFoundationInitHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
     className: BackgroundPlaneBehaviour
   - hash:
       serializedVersion: 2
@@ -1113,6 +1120,30 @@ ScriptsOnlyBuild:
     className: PreviewModelTurnOffBehaviour
   - hash:
       serializedVersion: 2
+      Hash: 4b6a8dd2dcf4e75fc00f6d3fe811ed1a
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderHolographicCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: c61ae52a96fa7966cc60c57666eedde6
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderOverlayCanvas
+  - hash:
+      serializedVersion: 2
       Hash: 128c30ad1cf8dd3ecabc27e874f9311a
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
@@ -1149,7 +1180,7 @@ ScriptsOnlyBuild:
     className: VuforiaBehaviour
   - hash:
       serializedVersion: 2
-      Hash: c5f9639a2e99298feac07b869b6a0097
+      Hash: 0d4e91123d1b8d73ba7efe8237c781ee
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
     className: VuforiaConfiguration
@@ -1386,6 +1417,12 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
+    className: ARFoundationInitHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
     className: BackgroundPlaneBehaviour
   - hash:
       serializedVersion: 2
@@ -1509,6 +1546,30 @@ ScriptsOnlyBuild:
     className: PreviewModelTurnOffBehaviour
   - hash:
       serializedVersion: 2
+      Hash: 4b6a8dd2dcf4e75fc00f6d3fe811ed1a
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderHolographicCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: c61ae52a96fa7966cc60c57666eedde6
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderOverlayCanvas
+  - hash:
+      serializedVersion: 2
       Hash: 128c30ad1cf8dd3ecabc27e874f9311a
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
@@ -1545,7 +1606,7 @@ ScriptsOnlyBuild:
     className: VuforiaBehaviour
   - hash:
       serializedVersion: 2
-      Hash: c5f9639a2e99298feac07b869b6a0097
+      Hash: 0d4e91123d1b8d73ba7efe8237c781ee
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
     className: VuforiaConfiguration
@@ -1632,6 +1693,12 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
+    className: ARFoundationInitHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
     className: BackgroundPlaneBehaviour
   - hash:
       serializedVersion: 2
@@ -1755,6 +1822,30 @@ ScriptsOnlyBuild:
     className: PreviewModelTurnOffBehaviour
   - hash:
       serializedVersion: 2
+      Hash: 4b6a8dd2dcf4e75fc00f6d3fe811ed1a
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderHolographicCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: c61ae52a96fa7966cc60c57666eedde6
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderOverlayCanvas
+  - hash:
+      serializedVersion: 2
       Hash: 128c30ad1cf8dd3ecabc27e874f9311a
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
@@ -1791,7 +1882,7 @@ ScriptsOnlyBuild:
     className: VuforiaBehaviour
   - hash:
       serializedVersion: 2
-      Hash: c5f9639a2e99298feac07b869b6a0097
+      Hash: 0d4e91123d1b8d73ba7efe8237c781ee
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
     className: VuforiaConfiguration
@@ -2541,7 +2632,7 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: 5dda04c83ce644411d42d78eaf66d521
+      Hash: a6a6c574ddafdb89e67d1c072f508a35
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TakePhoto
@@ -2599,6 +2690,12 @@ ScriptsOnlyBuild:
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
     className: AreaTargetSimulatorVisualization
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: ARFoundationInitHelper
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -2727,6 +2824,30 @@ ScriptsOnlyBuild:
     className: PreviewModelTurnOffBehaviour
   - hash:
       serializedVersion: 2
+      Hash: 4b6a8dd2dcf4e75fc00f6d3fe811ed1a
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderHolographicCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: c61ae52a96fa7966cc60c57666eedde6
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderOverlayCanvas
+  - hash:
+      serializedVersion: 2
       Hash: 128c30ad1cf8dd3ecabc27e874f9311a
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
@@ -2763,7 +2884,7 @@ ScriptsOnlyBuild:
     className: VuforiaBehaviour
   - hash:
       serializedVersion: 2
-      Hash: c5f9639a2e99298feac07b869b6a0097
+      Hash: 0d4e91123d1b8d73ba7efe8237c781ee
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
     className: VuforiaConfiguration
@@ -2898,6 +3019,12 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
+    className: ARFoundationInitHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
     className: BackgroundPlaneBehaviour
   - hash:
       serializedVersion: 2
@@ -3021,6 +3148,30 @@ ScriptsOnlyBuild:
     className: PreviewModelTurnOffBehaviour
   - hash:
       serializedVersion: 2
+      Hash: 4b6a8dd2dcf4e75fc00f6d3fe811ed1a
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderHolographicCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderInfoPopup
+  - hash:
+      serializedVersion: 2
+      Hash: c61ae52a96fa7966cc60c57666eedde6
+    assemblyName: Vuforia.UnityExtensions.dll
+    namespaceName: Vuforia
+    className: SessionRecorderOverlayCanvas
+  - hash:
+      serializedVersion: 2
       Hash: 128c30ad1cf8dd3ecabc27e874f9311a
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
@@ -3057,7 +3208,7 @@ ScriptsOnlyBuild:
     className: VuforiaBehaviour
   - hash:
       serializedVersion: 2
-      Hash: c5f9639a2e99298feac07b869b6a0097
+      Hash: 0d4e91123d1b8d73ba7efe8237c781ee
     assemblyName: Vuforia.UnityExtensions.dll
     namespaceName: Vuforia
     className: VuforiaConfiguration
@@ -3115,4 +3266,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Survey.unity
   - Assets/Scenes/Map.unity
   - Assets/Scenes/Fight.unity
-  playerPath: /Users/nimajamalian/Desktop/ios/Harry Spotter
+  playerPath: /Users/nimajamalian/Desktop/Harry Spotter iOS/Harry Spotter iOS

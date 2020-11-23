@@ -9,7 +9,6 @@ public class RunTimeChecker : MonoBehaviour
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     static void OnBeforeSceneLoadRuntimeMethod()
     {
-        
         GameObject gameObject = new GameObject();
         LocalUser localUser = gameObject.AddComponent<LocalUser>();
         localUser.LoadData();
@@ -34,7 +33,6 @@ public class RunTimeChecker : MonoBehaviour
             }
         }
         print(localUser.userID);
-       
         Debug.Log("Before first Scene loaded");
     }
 

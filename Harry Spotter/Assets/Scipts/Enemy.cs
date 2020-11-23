@@ -74,7 +74,7 @@ public class Enemy : MonoBehaviour
             if(_player.isPlayerDead == false)
             {
                 _animator.SetTrigger("Attack1Trigger");
-                _player.TakeDame(_localUser.currentDefenderScore);//Enemy Attach damage Rate
+                _player.TakeDame(_localUser.currentDefenderScore + 100);//Enemy Attach damage Rate
             } else
             {
                 if(_isEnemyDead != true)

@@ -73,17 +73,21 @@ public class MaslowQuestion : MonoBehaviour
                 tempAnsware = tempAnsware + qaArr[i].Answer;
                 if (tempAnsware == "Self-actualization")
                 {
-                    tempAnsware = "L4";
+                    tempAnsware = "L5";
                 }
                 else if (tempAnsware == "Esteem")
                 {
+                    tempAnsware = "L4";
+                }
+                else if (tempAnsware == "Love/belonging")
+                {
                     tempAnsware = "L3";
                 }
-                else if (tempAnsware == "Safety Needs")
+                else if (tempAnsware == "Safety")
                 {
                     tempAnsware = "L2";
                 }
-                else if (tempAnsware == "Basic Survival")
+                else if (tempAnsware == "Physiological")
                 {
                     tempAnsware = "L1";
                 }
