@@ -1586,7 +1586,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Find More Item
+  m_Text: Scan more items
 --- !u!222 &463080892
 CanvasRenderer:
   m_ObjectHideFlags: 0
