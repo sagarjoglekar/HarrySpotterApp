@@ -22,7 +22,7 @@ public class TestLocationService : MonoBehaviour
     IEnumerator Start()
     {
 
-        Application.RequestUserAuthorization(UserAuthorization.WebCam);
+        //Application.RequestUserAuthorization(UserAuthorization.WebCam);
         yield return null;
     }
 #endif
