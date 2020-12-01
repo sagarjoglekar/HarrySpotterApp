@@ -36,7 +36,7 @@ public class EventPointer : MonoBehaviour
         if(_rawImage == null && _leaderboardTransition.GetBool("isLeaderboardOn") == false)
         {
             EventID eventID = new EventID(this.gameObject.name);
-            StartCoroutine(_gameNetwork.GetEventMetaData("https://sjoglekar-45523.portmap.io:45523/getEventMetadata", eventID.Serialize().ToString(), GetEventMetaData));
+            StartCoroutine(_gameNetwork.GetEventMetaData("https://harryspotter-backend.portmap.io:26214/getEventMetadata", eventID.Serialize().ToString(), GetEventMetaData));
             Debug.Log(this.gameObject.name);
         }
  

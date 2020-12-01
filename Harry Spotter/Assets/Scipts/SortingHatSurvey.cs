@@ -82,7 +82,7 @@ public class SortingHatSurvey : MonoBehaviour
             //dea45272-bd40-11ea-b807-7bc7be4e90df
             _localUser.LoadData();
             HatQuiz myResults = new HatQuiz(_localUser.userID, saveAnswares);
-            StartCoroutine(_sortingHatNetwork.PostRegistery("https://sjoglekar-45523.portmap.io:45523/registerUser", myResults.Serialize().ToString(),GetHouseID));
+            StartCoroutine(_sortingHatNetwork.PostRegistery("https://harryspotter-backend.portmap.io:26214/registerUser", myResults.Serialize().ToString(),GetHouseID));
            
             //harryPotterHouses[Random.Range(0, 4)];
             //print("You have answared all of the questions");

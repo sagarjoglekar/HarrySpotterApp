@@ -237,7 +237,7 @@ public class UIManagerLoginIn : MonoBehaviour
                 UserAccount newUser = new UserAccount(_signUpEmailInputText.text, _signUpPassInputText.text);
                 //original stub:http://sjoglekar-25233.portmap.io:25233/
                 //https stub:https://sjoglekar-45523.portmap.io:45523/
-                StartCoroutine(_loginNetwork.PostUserAccount("https://sjoglekar-45523.portmap.io:45523/signup", newUser.ToJsonString(), SignUpGetUserID));
+                StartCoroutine(_loginNetwork.PostUserAccount("https://harryspotter-backend.portmap.io:26214/signup", newUser.ToJsonString(), SignUpGetUserID));
             }
             if(_signUpEmailInputText.text.Length <= 4)
             {
@@ -319,7 +319,7 @@ public class UIManagerLoginIn : MonoBehaviour
             if (_loginEmailInputText.text.Length > 4 && _loginPassInputText.text.Length >= 6)
             {
                 UserAccount newUser = new UserAccount(_loginEmailInputText.text, _loginPassInputText.text);
-                StartCoroutine(_loginNetwork.PostUserAccount("https://sjoglekar-45523.portmap.io:45523/signin", newUser.ToJsonString(), LoginGetUserID));
+                StartCoroutine(_loginNetwork.PostUserAccount("https://harryspotter-backend.portmap.io:26214/signin", newUser.ToJsonString(), LoginGetUserID));
             }
             if (_loginEmailInputText.text.Length <= 4)
             {
@@ -352,7 +352,7 @@ public class UIManagerLoginIn : MonoBehaviour
             _localUser.userID = userID;
             _localUser.SaveData();
             UserId _userId = new UserId(_localUser.userID);
-            StartCoroutine(_loginNetwork.PostUserInfo("https://sjoglekar-45523.portmap.io:45523/getUser", _userId.Serialize().ToString(),GetUserAccountDetail));
+            StartCoroutine(_loginNetwork.PostUserInfo("https://harryspotter-backend.portmap.io:26214/getUser", _userId.Serialize().ToString(),GetUserAccountDetail));
         }
     }
 

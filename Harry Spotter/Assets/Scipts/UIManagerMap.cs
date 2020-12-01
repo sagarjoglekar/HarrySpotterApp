@@ -213,8 +213,8 @@ public class UIManagerMap : MonoBehaviour
             _leaderboardPanel.SetActive(true);
             _leaderboardTransition.SetBool("isLeaderboardOn", true);
             UserId userId = new UserId(_localUser.userID);
-            StartCoroutine(_gameNetwork.PostUserInfo("https://sjoglekar-45523.portmap.io:45523/getUser", userId.Serialize().ToString(),GetUserAccountStats));
-            StartCoroutine(_gameNetwork.GetLeaderboard("https://sjoglekar-45523.portmap.io:45523/getGlobalLeaderboard", GetLeaderboardDetail));
+            StartCoroutine(_gameNetwork.PostUserInfo("https://harryspotter-backend.portmap.io:26214/getUser", userId.Serialize().ToString(),GetUserAccountStats));
+            StartCoroutine(_gameNetwork.GetLeaderboard("https://harryspotter-backend.portmap.io:26214/getGlobalLeaderboard", GetLeaderboardDetail));
             DisplayUserHouseLogo();
         } else
         {
@@ -416,7 +416,7 @@ public class UIManagerMap : MonoBehaviour
     {
         
         EventID eventID1 = new EventID(eventID);
-        StartCoroutine(_gameNetwork.GetFightStatus("https://sjoglekar-45523.portmap.io:45523/getFightStatus", eventID1.Serialize().ToString(), GetFightStatusCallBack));
+        StartCoroutine(_gameNetwork.GetFightStatus("https://harryspotter-backend.portmap.io:26214/getFightStatus", eventID1.Serialize().ToString(), GetFightStatusCallBack));
         var userLocation = new GeoCoordinatePortable.GeoCoordinate(double.Parse(_locationStatus.GetLocationLon()), double.Parse(_locationStatus.GetLocationLat()));
         var eventLocation = new GeoCoordinatePortable.GeoCoordinate(double.Parse(eventLat.ToString()), double.Parse(eventLon.ToString()));
         //Debug.Log(userLocation);
@@ -476,9 +476,9 @@ public class UIManagerMap : MonoBehaviour
     public void OnCliamMayorshipButtonClick()
     {
         UserId userId = new UserId(_localUser.userID);
-        StartCoroutine(_gameNetwork.PostUserInfo("https://sjoglekar-45523.portmap.io:45523/getUser", userId.Serialize().ToString(), GetUserDefenderScore));
+        StartCoroutine(_gameNetwork.PostUserInfo("https://harryspotter-backend.portmap.io:26214/getUser", userId.Serialize().ToString(), GetUserDefenderScore));
         EventSet eventSet = new EventSet(tempEventID, _localUser.userID);
-        StartCoroutine(_gameNetwork.StartFight("https://sjoglekar-45523.portmap.io:45523/startFight", eventSet.Serialize().ToString(), StartFightCallBack));
+        StartCoroutine(_gameNetwork.StartFight("https://harryspotter-backend.portmap.io:26214/startFight", eventSet.Serialize().ToString(), StartFightCallBack));
     }
 
     public void StartFightCallBack(StartFightCallBack startFightCallBack)
@@ -564,7 +564,7 @@ public class UIManagerMap : MonoBehaviour
             {
                 _deleteAccount.GetComponentInChildren<Text>().text = "Sending the request";
                 UserId userId = new UserId(_localUser.userID);
-                StartCoroutine(_gameNetwork.DeleteUser("https://sjoglekar-45523.portmap.io:45523/deleteUser", userId.Serialize().ToString(), DeleteAccountCallBack));
+                StartCoroutine(_gameNetwork.DeleteUser("https://harryspotter-backend.portmap.io:26214/deleteUser", userId.Serialize().ToString(), DeleteAccountCallBack));
                 break;
             }
             _deleteAccount.GetComponentInChildren<Text>().text = "Hold For " + Mathf.RoundToInt(timeLeft) +" Seconds";

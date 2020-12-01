@@ -132,7 +132,7 @@ public class UIManagerFight : MonoBehaviour
     public void OnExitButtonClick()
     {
         FightSet fightSet = new FightSet(_localUser.currentEventId, _localUser.userID, false, _localUser.currentMutex);
-        StartCoroutine(_gameNetwork.SetFightSatus("https://sjoglekar-45523.portmap.io:45523/setFightStatus", fightSet.Serialize().ToString()));
+        StartCoroutine(_gameNetwork.SetFightSatus("https://harryspotter-backend.portmap.io:26214/setFightStatus", fightSet.Serialize().ToString()));
         SceneManager.LoadScene("Map");
     }
 }
