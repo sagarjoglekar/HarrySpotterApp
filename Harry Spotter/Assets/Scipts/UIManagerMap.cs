@@ -423,7 +423,7 @@ public class UIManagerMap : MonoBehaviour
         //Debug.Log(eventLocation);
         var distance = userLocation.GetDistanceTo(eventLocation);
         _distanceText.text = "Distance: " + Mathf.RoundToInt((float)distance) + "m";
-        if (distance < 800)//turn back to 80
+        if (distance < 50)//turn back to 50 -- for testing put a high nubmer 
         {
             tempEventID = eventID;
             tempEventHouse = houseNumber;

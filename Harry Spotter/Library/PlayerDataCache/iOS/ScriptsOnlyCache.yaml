@@ -180,7 +180,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15318}
     - Class: 114
-      Script: {instanceID: 27914}
+      Script: {instanceID: 19958}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3266,4 +3266,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Map.unity
   - Assets/Scenes/Fight.unity
   playerPath: /Users/nimajamalian/Documents/Nima Dcouments/Unity Projects/Builds/Harry
-    Spotter Builds/Harry Spotter iOS Build
+    Spotter Builds/Harry Spotter iOS Build/Harry Spotter iOS Build
