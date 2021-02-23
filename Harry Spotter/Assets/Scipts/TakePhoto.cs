@@ -85,7 +85,7 @@ public class TakePhoto : MonoBehaviour
             image64 = "data:image/jpeg;base64," + Convert.ToBase64String(bytes);
             //print("this is local user save id: " + _localUser.userID);
             GameNetworkImage captured = new GameNetworkImage(_localUser.userID, image64, "0", "0");
-            StartCoroutine(_gameNetwork.PostAddObject("https://harryspotter-backend.portmap.io:26214/addObject", captured.Serialize().ToString(), GetObjectIds));
+            StartCoroutine(_gameNetwork.PostAddObject("https://harryspotter.eu.ngrok.io/addObject", captured.Serialize().ToString(), GetObjectIds));
             #endregion
         }
     }
@@ -179,7 +179,7 @@ public class TakePhoto : MonoBehaviour
                     //bytes = _testTexture.EncodeToPNG();
                     string currentImage64 = "data:image/jpeg;base64," + Convert.ToBase64String(currenBytes);
                     GameNetworkImage captured = new GameNetworkImage(_localUser.userID, currentImage64, _locationStatus.GetLocationLat(), _locationStatus.GetLocationLon());
-                    StartCoroutine(_gameNetwork.PostAddObject("https://harryspotter-backend.portmap.io:26214/addObject", captured.Serialize().ToString(), GetObjectIds));
+                    StartCoroutine(_gameNetwork.PostAddObject("https://harryspotter.eu.ngrok.io/addObject", captured.Serialize().ToString(), GetObjectIds));
                 }
 
                 /*

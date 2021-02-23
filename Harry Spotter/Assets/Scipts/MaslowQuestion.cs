@@ -94,7 +94,7 @@ public class MaslowQuestion : MonoBehaviour
             }
             print(tempAnsware);
             AnnotationDetail annotation = new AnnotationDetail(_localUser.userID, _takePhoto.tempObjectIds, _labelInputField.text, tempAnsware);
-            StartCoroutine(_gameNetwork.PostAnnotateObject("https://harryspotter-backend.portmap.io:26214/annotate", annotation.ToJsonString(),GettingUserScoreBack));
+            StartCoroutine(_gameNetwork.PostAnnotateObject("https://harryspotter.eu.ngrok.io/annotate", annotation.ToJsonString(),GettingUserScoreBack));
         }
     }
 

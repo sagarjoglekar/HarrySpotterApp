@@ -80,7 +80,7 @@ public class Enemy : MonoBehaviour
                 if(_isEnemyDead != true)
                 {
                     FightSet fightSet = new FightSet(_localUser.currentEventId, _localUser.userID, false, _localUser.currentMutex);
-                    StartCoroutine(_gameNetwork.SetFightSatus("https://harryspotter-backend.portmap.io:26214/setFightStatus", fightSet.Serialize().ToString()));
+                    StartCoroutine(_gameNetwork.SetFightSatus("https://harryspotter.eu.ngrok.io/setFightStatus", fightSet.Serialize().ToString()));
                     _uIManagerFight.DisplayEndPanel(false);//player lost show panel
                     break;
                 }
@@ -101,7 +101,7 @@ public class Enemy : MonoBehaviour
             _enemyCurrentHealth = 0;
             _isEnemyDead = true;
             FightSet fightSet = new FightSet(_localUser.currentEventId, _localUser.userID, true, _localUser.currentMutex);
-            StartCoroutine(_gameNetwork.SetFightSatus("https://harryspotter-backend.portmap.io:26214/setFightStatus", fightSet.Serialize().ToString()));
+            StartCoroutine(_gameNetwork.SetFightSatus("https://harryspotter.eu.ngrok.io/setFightStatus", fightSet.Serialize().ToString()));
             _uIManagerFight.DisplayEndPanel(true);//player won show panel
         }
 

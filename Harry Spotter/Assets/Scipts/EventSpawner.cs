@@ -50,7 +50,7 @@ public class EventSpawner : MonoBehaviour
 		if (_pcDebugMod == true)
 		{
 			GameNetworkEvent _event = new GameNetworkEvent("ff81b218-c1d3-11ea-81e3-f3d73c97a2c0", "-0.0206224", "51.4978606");
-			StartCoroutine(_gameNetwork.GetEvent("https://harryspotter-backend.portmap.io:26214/getEvents", _event.Serialize().ToString(), GetEventResults));
+			StartCoroutine(_gameNetwork.GetEvent("https://harryspotter.eu.ngrok.io/getEvents", _event.Serialize().ToString(), GetEventResults));
 		} else
 		{
 			StartCoroutine(InitializeEvent());
@@ -63,7 +63,7 @@ public class EventSpawner : MonoBehaviour
 	{
 		yield return new WaitUntil(() => _locationStatus.GetLocationLat() != "0" && _locationStatus.GetLocationLon() != "0");
 		GameNetworkEvent _event = new GameNetworkEvent(_localUser.userID, _locationStatus.GetLocationLat(), _locationStatus.GetLocationLon());
-		StartCoroutine(_gameNetwork.GetEvent("https://harryspotter-backend.portmap.io:26214/getEvents", _event.Serialize().ToString(), GetEventResults));
+		StartCoroutine(_gameNetwork.GetEvent("https://harryspotter.eu.ngrok.io/getEvents", _event.Serialize().ToString(), GetEventResults));
 		_originalEventSpawnPoseLat = _locationStatus.GetLocationLat();
 		_originalEventSpawnPoseLon = _locationStatus.GetLocationLon();
 
@@ -168,7 +168,7 @@ public class EventSpawner : MonoBehaviour
 	private void SpawnEvents()
     {
 		GameNetworkEvent _event = new GameNetworkEvent(_localUser.userID, _locationStatus.GetLocationLat(), _locationStatus.GetLocationLon());
-		StartCoroutine(_gameNetwork.GetEvent("https://harryspotter-backend.portmap.io:26214/getEvents", _event.Serialize().ToString(), GetEventResults));
+		StartCoroutine(_gameNetwork.GetEvent("https://harryspotter.eu.ngrok.io/getEvents", _event.Serialize().ToString(), GetEventResults));
 		_originalEventSpawnPoseLat = _locationStatus.GetLocationLat();
 		_originalEventSpawnPoseLon = _locationStatus.GetLocationLon();
 	}
