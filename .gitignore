@@ -12,8 +12,8 @@
 
 #Ignore Large Files
 Harry Spotter/Library/ArtifactDB
-Harry Spotter/Library/PackageCache/com.ptc.vuforia.engine@9.5.4/Vuforia/Plugins/iOS/Vuforia.framework/Vuforia
-
+Harry Spotter/Library/PackageCache/com.ptc.vuforia.engine@2aa4b218a1/Vuforia/Plugins/iOS/Vuforia.framework/Vuforia
+Harry Spotter/Library/PackageCache/com.unity.toolchain.macos-x86_64-linux-x86_64@0.1.20-preview
 
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
